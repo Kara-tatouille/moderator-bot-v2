@@ -1,3 +1,9 @@
+### Project
+config/config.json
+config/mysql.json
+
+
+### IDE
 .idea
 
 ### Node template
