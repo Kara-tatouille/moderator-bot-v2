@@ -1,6 +1,8 @@
 const {Client, Intents, Collection} = require('discord.js');
 const {token} = require('./config/config.json');
 const fs = require('fs');
+const {deployCommands} = require('./deploy-commands');
+
 
 const client = new Client({intents: [Intents.FLAGS.GUILDS]});
 
@@ -22,6 +24,8 @@ for (const file of eventFiles) {
         client.on(event.name, (...args) => event.execute(...args));
     }
 }
+
+deployCommands();
 
 // Login to Discord with your client's token
 client.login(token);
