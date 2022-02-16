@@ -1,13 +1,16 @@
+import {CommandInteraction} from "discord.js";
+import {CustomClient} from "../models/CustomClient";
+
 module.exports = {
     name: 'interactionCreate',
-    async execute(interaction) {
-
+    async execute(interaction: CommandInteraction) {
         // Try to run a command from the interaction
         if (!interaction.isCommand()) {
             return;
         }
 
-        const command = interaction.client.commands.get(interaction.commandName);
+        const client: CustomClient = interaction.client;
+        const command = client.commands!.get(interaction.commandName);
 
         if (!command) {
             return;

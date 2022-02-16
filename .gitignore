@@ -1,6 +1,7 @@
 ### Project
 config/config.json
 config/mysql.json
+build
 
 
 ### IDE
