@@ -5,7 +5,9 @@ const {token} = require('../config/config.json');
 const fs = require('fs');
 const {deployCommands} = require('./deploy-commands');
 
-const client: CustomClient = new Client({intents: [Intents.FLAGS.GUILDS]});
+const client: CustomClient = new Client({
+        intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
+    });
 
 // Create collection of commands in ./commands
 client.commands = new Collection();
