@@ -12,7 +12,6 @@ client.commands = new Collection();
 const commandFiles = fs.readdirSync('build/commands').filter((file: string) => file.endsWith('.js'));
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
-    console.log(typeof command);
     client.commands!.set(command.data.name, command);
 }
 
