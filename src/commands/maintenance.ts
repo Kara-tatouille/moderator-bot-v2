@@ -1,7 +1,7 @@
 import {CommandInteraction} from "discord.js";
 
 const {SlashCommandBuilder} = require('@discordjs/builders');
-const {trans} = require('../tools/translate');
+const {trans} = require('../services/translate');
 
 module.exports = {
     data: new SlashCommandBuilder()
