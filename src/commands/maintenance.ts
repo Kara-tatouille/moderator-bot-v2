@@ -7,7 +7,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('maintenance')
         .setDescription('Sends a (translated) message explaining the weekly maintenance'),
-    async execute(interaction: CommandInteraction) {
+    async execute(interaction: CommandInteraction): Promise<void> {
         await interaction.reply(trans('maintenance', interaction.locale));
     },
 };

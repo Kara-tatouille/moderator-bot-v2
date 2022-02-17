@@ -3,7 +3,7 @@ import {CustomClient} from "../models/CustomClient";
 
 module.exports = {
     name: 'interactionCreate',
-    async execute(interaction: CommandInteraction) {
+    async execute(interaction: CommandInteraction): Promise<void> {
         // Try to run a command from the interaction
         if (!interaction.isCommand()) {
             return;

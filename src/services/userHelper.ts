@@ -1,10 +1,10 @@
-import {PrismaClient} from "@prisma/client";
+import {AppUser, PrismaClient} from "@prisma/client";
 import {Snowflake} from "discord-api-types";
 
 const prisma = new PrismaClient();
 
 module.exports = {
-    async getAppUser(discordId: Snowflake) {
+    async getAppUser(discordId: Snowflake): Promise<AppUser | null> {
         return prisma.appUser.findUnique({
             where: {
                 discord_id: discordId
@@ -12,7 +12,7 @@ module.exports = {
         })
     },
 
-    async addXpToAppUser(discordId: Snowflake) {
+    async addXpToAppUser(discordId: Snowflake): Promise<AppUser> {
         return prisma.appUser.upsert({
             where: {
                 discord_id: discordId

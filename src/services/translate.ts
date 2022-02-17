@@ -1,7 +1,7 @@
 import fs from "fs";
 
 module.exports = {
-    trans(str: string, locale: string) {
+    trans(str: string, locale: string): string {
         const shortenedLocale = locale.match(/(^(.*)-)|^(.*)$/)
         if (!shortenedLocale) {
             throw Error("locale did not match : " + locale)

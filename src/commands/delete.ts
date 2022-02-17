@@ -16,7 +16,7 @@ module.exports = {
         })
     ,
 
-    async execute(interaction: CommandInteraction) {
+    async execute(interaction: CommandInteraction): Promise<void> {
         const num = interaction.options.getInteger('number') ?? 0;
         if (interaction.channel instanceof TextChannel) {
             try {

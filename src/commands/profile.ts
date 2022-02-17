@@ -10,7 +10,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('profile')
         .setDescription('Gets informations about your profile'),
-    async execute(interaction: CommandInteraction) {
+    async execute(interaction: CommandInteraction): Promise<void> {
         const author: GuildMember = <GuildMember>interaction.member;
         const appUser: AppUser = await userHelper.getAppUser(author.user.id)
 
@@ -33,6 +33,6 @@ module.exports = {
             .setThumbnail(<string>author.avatarURL())
             .setTitle(author.displayName)
             .setFields(fields)
-        await interaction.reply({embeds: [embed], ephemeral: true});
+        await interaction.reply({embeds: [embed]});
     },
 };
