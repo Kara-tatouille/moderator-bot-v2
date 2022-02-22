@@ -1,0 +1,22 @@
+{
+    "1": {
+        "en": "Nothing will happen for now, but you will be muted 1 hour the next warning.",
+        "fr": "Rien ne se passera pour l'instant, mais vous serez mute pendant 1 heure au prochain avertissement."
+    },
+    "2": {
+        "en": "You have been muted for 1 hour. The next warning will mute you for 1 day.",
+        "fr": "Vous avez été mis en sourdine pendant une heure. Le prochain avertissement vous rendra muet pendant 1 jour."
+    },
+    "3": {
+        "en": "You have been muted for 1 day. The next warning will mute you for 2 days.",
+        "fr": "Vous avez été mis en sourdine pendant 1 jour. Le prochain avertissement vous rendra muet pendant 2 jours."
+    },
+    "4": {
+        "en": "You have been muted for 1 week. The next warning will ban you.",
+        "fr": "Vous avez été mis en sourdine pendant une semaine. Le prochain avertissement vous bannira"
+    },
+    "5": {
+        "en": "You have been banned for not following properly the rules.",
+        "fr": "Vous avez été banni pour ne pas avoir suivi correctement les règles."
+    }
+}

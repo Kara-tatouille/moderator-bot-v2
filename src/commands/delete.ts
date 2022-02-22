@@ -7,12 +7,13 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('delete')
         .setDescription('Bulk delete multiples messages, only available to moderators.')
+        .setDefaultPermission(false)
         .addIntegerOption((option: SlashCommandIntegerOption) => {
             return option
                 .setName('number')
                 .setDescription('The number of messages to delete')
                 .setRequired(true)
-                ;
+            ;
         })
     ,
 

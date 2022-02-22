@@ -4,6 +4,7 @@ const {Intents, Collection, Client} = require('discord.js');
 const {token} = require('../config/config.json');
 const fs = require('fs');
 const {deployCommands} = require('./deploy-commands');
+const {addPermissionsToCommands} = require('./add-permissions-to-commands');
 
 const client: CustomClient = new Client({
         intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
@@ -29,7 +30,9 @@ for (const file of eventFiles) {
     }
 }
 
-deployCommands();
+deployCommands().then((commands: string[]) => {
+    client.login(token).then(() => {
+        addPermissionsToCommands(client, commands);
+    });
+});
 
-// Login to Discord with your client's token
-client.login(token);

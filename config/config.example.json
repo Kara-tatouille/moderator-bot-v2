@@ -1,7 +1,8 @@
 {
-    "token": "",
-    "application": {
-        "id": ""
-    },
+    "token": "token",
+    "clientId": "snowflake",
+    "guildId": "snowflake",
+    "modId": "snowflake",
+    "botChannelId": "snowflake",
     "version": "0.1"
 }

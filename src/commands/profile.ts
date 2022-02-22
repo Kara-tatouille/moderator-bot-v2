@@ -17,11 +17,11 @@ module.exports = {
         const fields = []
         const xpField: EmbedFieldData = {
             name: 'XP',
-            value: trans("xp-desc", interaction.locale) + appUser.xp.toLocaleString()
+            value: trans("xp-desc", interaction.locale) + `-> **${appUser.xp.toLocaleString()}**`
         }
         const warningField = {
             name: 'Warnings',
-            value: trans("warning-desc", interaction.locale) + appUser.warning.toLocaleString()
+            value: trans("warning-desc", interaction.locale) + `-> **${appUser.warning.toLocaleString()}**`
         }
 
         fields.push(xpField);
