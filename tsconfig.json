@@ -2,6 +2,7 @@
     "extends": "@tsconfig/node16/tsconfig.json",
     "compilerOptions": {
         "lib": ["es2021"],
+        "target": "esnext",
         "rootDir": "./src",
         "allowJs": true,
         "checkJs": true,

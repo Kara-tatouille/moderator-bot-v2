@@ -1,5 +1,6 @@
 import {Message} from "discord.js";
-const userHelper = require('../services/userHelper');
+const {addXpToAppUser, handleLevelup} = require('../services/userHelper');
+
 
 module.exports = {
     name: 'messageCreate',
@@ -9,7 +10,10 @@ module.exports = {
         }
 
         if (message.content.length > 4) {
-            const appUser = await userHelper.addXpToAppUser(message.author.id)
+            const appUser = await addXpToAppUser(message.author.id)
+
+            await handleLevelup(appUser, message.member);
+
         }
     },
 };
