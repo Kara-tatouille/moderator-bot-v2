@@ -25,17 +25,16 @@ module.exports = {
             return;
         }
 
-        const numberOfWarns = await userHelper.handleWarning(discordUser);
-
+        const warnResult: {error: boolean, numberOfWarns: number} = await userHelper.handleWarning(discordUser);
 
         const botChannel = await interaction.guild?.channels.fetch(botChannelId);
 
         if (botChannel?.isText()) {
             let member = <GuildMember>interaction.member;
-            botChannel.send(`${member.displayName} warned ${discordUser.displayName}, they now have ${numberOfWarns} warnings`)
+            botChannel.send(`${member.displayName} warned ${discordUser.displayName}, they now have ${warnResult.numberOfWarns} warnings`)
         }
 
-        if (numberOfWarns === -1) {
+        if (warnResult.error) {
             return interaction.reply({
                 ephemeral: true,
                 content: "Could not timeout/ban this user. Their warn number did increase and they have been sent a message accordingly."

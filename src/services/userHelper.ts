@@ -83,9 +83,9 @@ module.exports = {
 
         // Gets the current level based on user's xp
         let currentLevel = 0;
-        for (let i = 1; i <= levels.length; i++) {
-            if (xp >= levels[i]) {
-                currentLevel = i;
+        for (let i = 0; i < levels.length; i++) {
+            currentLevel = i;
+            if (xp <= levels[i]) {
                 break;
             }
         }
