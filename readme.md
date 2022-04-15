@@ -1,4 +1,7 @@
-#Setup
+# Setup
+
+Renommer `.env.example` en `.env`, modifier la ligne `DATABASE_URL` pour qu'elle contienne les usernames/passwords qui seront utilisés par le bot
+la database n'a pas besoin de préexister.
 
 ```
 nvm use
