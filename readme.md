@@ -10,7 +10,7 @@ npx prisma migrate dev
 ```
 
 Compilation de typescript 
-(parfois, supprimer le dossier `build/` est nécessaire pour que la compilation se fasse bien ? jsp je suis nouveau sur typescript)
+(parfois, supprimer le dossier `build/` est nécessaire pour que la compilation se fasse bien ? jsp je debute sur typescript)
 ```
 npx tsc --watch
 ```
