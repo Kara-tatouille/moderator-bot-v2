@@ -1,0 +1,290 @@
+{
+    "roles": [
+        {
+            "id": "positioner",
+            "icon": ""
+        },
+        {
+            "id": "protector",
+            "icon": ""
+        },
+        {
+            "id": "debuffer",
+            "icon": ""
+        },
+        {
+            "id": "tank",
+            "icon": ""
+        },
+        {
+            "id": "damage_dealer",
+            "icon": ""
+        },
+        {
+            "id": "buffer",
+            "icon": ""
+        },
+        {
+            "id": "healer",
+            "icon": ""
+        },
+        {
+            "id": "summoner",
+            "icon": ""
+        }
+    ],
+    "classes": [
+        {
+            "id": "ecaflip",
+            "roles": {
+                "damage_dealer": true,
+                "buffer": true,
+                "healer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 1,
+                "fire": 4,
+                "earth": 1
+            }
+        },
+        {
+            "id": "eniripsa",
+            "roles": {
+                "buffer": true,
+                "healer": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 4,
+                "air": 2,
+                "fire": 3,
+                "earth": 1
+            }
+        },
+        {
+            "id": "iop",
+            "roles": {
+                "damage_dealer": true,
+                "buffer": true,
+                "positioner": true
+            },
+            "lowLevelTierList": {
+                "water": 4,
+                "air": 4,
+                "fire": 3,
+                "earth": 2
+            }
+        },
+        {
+            "id": "cra",
+            "roles": {
+                "damage_dealer": true,
+                "debuffer": true,
+                "buffer": true
+            },
+            "lowLevelTierList": {
+                "water": 2,
+                "air": 4,
+                "fire": 2,
+                "earth": 2
+            }
+        },
+        {
+            "id": "feca",
+            "roles": {
+                "protector": true,
+                "tank": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 4,
+                "fire": 3,
+                "earth": 3
+            }
+        },
+        {
+            "id": "sacrier",
+            "roles": {
+                "tank": true,
+                "positioner": true,
+                "damage_dealer": true
+            },
+            "lowLevelTierList": {
+                "water": 4,
+                "air": 2,
+                "fire": 4,
+                "earth": 4
+            }
+        },
+        {
+            "id": "sadida",
+            "roles": {
+                "summoner": true,
+                "healer": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 0,
+                "fire": 3,
+                "earth": 4
+            }
+        },
+        {
+            "id": "osamodas",
+            "roles": {
+                "summoner": true,
+                "healer": true,
+                "buffer": true
+            },
+            "lowLevelTierList": {
+                "water": 2,
+                "air": 4,
+                "fire": 3,
+                "earth": 1
+            }
+        },
+        {
+            "id": "enutrof",
+            "roles": {
+                "summoner": true,
+                "buffer": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 4,
+                "air": 4,
+                "fire": 1,
+                "earth": 3
+            }
+        },
+        {
+            "id": "sram",
+            "roles": {
+                "damage_dealer": true,
+                "positioner": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 2,
+                "air": 4,
+                "fire": 3,
+                "earth": 3
+            }
+        },
+        {
+            "id": "xelor",
+            "roles": {
+                "damage_dealer": true,
+                "positioner": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 2,
+                "fire": 4,
+                "earth": 2
+            }
+        },
+        {
+            "id": "pandawa",
+            "roles": {
+                "damage_dealer": true,
+                "tank": true,
+                "positioner": true
+            },
+            "lowLevelTierList": {
+                "water": 4,
+                "air": 3,
+                "fire": 1,
+                "earth": 1
+            }
+        },
+        {
+            "id": "rogue",
+            "roles": {
+                "damage_dealer": true,
+                "positioner": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 1,
+                "air": 4,
+                "fire": 4,
+                "earth": 1
+            }
+        },
+        {
+            "id": "masqueraider",
+            "roles": {
+                "protector": true,
+                "tank": true,
+                "damage_dealer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 3,
+                "fire": 1,
+                "earth": 3
+            }
+        },
+        {
+            "id": "foggernaut",
+            "roles": {
+                "healer": true,
+                "positioner": true,
+                "damage_dealer": true
+            },
+            "lowLevelTierList": {
+                "water": 2,
+                "air": 3,
+                "fire": 3,
+                "earth": 4
+            }
+        },
+        {
+            "id": "eliotrop",
+            "roles": {
+                "damage_dealer": true,
+                "positioner": true,
+                "healer": true
+            },
+            "lowLevelTierList": {
+                "water": 4,
+                "air": 2,
+                "fire": 3,
+                "earth": 3
+            }
+        },
+        {
+            "id": "huppermage",
+            "roles": {
+                "damage_dealer": true,
+                "positioner": true,
+                "buffer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 2,
+                "fire": 3,
+                "earth": 3
+            }
+        },
+        {
+            "id": "ouginak",
+            "roles": {
+                "damage_dealer": true,
+                "tank": true,
+                "debuffer": true
+            },
+            "lowLevelTierList": {
+                "water": 3,
+                "air": 3,
+                "fire": 1,
+                "earth": 4
+            }
+        }
+    ]
+}
