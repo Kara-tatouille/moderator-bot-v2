@@ -2,5 +2,53 @@
     "maintenance": "Tous les mardis, il y a une maintenance hebdomadaire pour permettre de mettre à jour les serveurs du jeu.\nC'est pour s'assurer que les serveurs tournent bien et qu'il n'y ait pas de crash durant la semaine.\nDu coup, le jeu n'est pas accessible le mardi matin, jusqu'à 11h~12h (il n'y a jamais d'horaires d'ouverture précis, ça dépend du nombre de choses à faire)\nIl faut donc attendre la fin :wink:\n(Si ton jeu te dit que tu n'as pas la bonne version c'est normal, la nouvelle version ne sera dispo qu'après la maintenance)",
     "xp-desc": "*Combien de fois vous avez parlé depuis que vous êtes ici, débloque de nouveaux rôles.*\n",
     "warning-desc": "*Combien de fois avez-vous été averti par la modération*\n",
-    "monomulti": "Dans Dofus, il existe 2 façons de jouer au jeu, les 2 ont leurs + et leurs -, il n'y a pas vraiment un meilleur que l'autre, cela revient aux préférences personnelles.\nMulticompte signifie de jouer avec plusieurs comptes en même temps connectés sur le même serveur (C'est différent de créer et jouer plusieurs personnages, dans ce cas-ci, tu possèdes plusieurs fenêtres Dofus ouvertes avec plusieurs comptes créés), le multicompte permet généralement de créer entre 2 et 8 comptes afin de gérer le contenu de façon autonome, le multicompte est la norme sur tous les serveurs dits multicomptes (qui l'autorisent), avec les plus populaires étant Mériana et Ush. Les raisons principales de jouer multicompte serait de ne pas avoir à se fier sur les autres (jouer quand tu veux, pas besoin d'attendre devant un donjon), de ne pas jouer avec des gens qui vont foirer le combat (ce qui détermine qui gagne le combat c'est uniquement toi, pas quelqu'un random que tu ne connais pas qui ne savait pas jouer) et d'avoir accès à un panel de sorts extrêmement vaste afin de faire pleins de synergies. Notez qu'il faut abonner chaque compte pour jouer multicompte, mais par exemple acheter 4 packs novice (4x4 =16 euros) et jouer pendant 1 mois est une stratégie assez possible pour commencer une team et continuer à s'abonner en kamas.\n\nMonocompte signifie de jouer avec un seul compte en même temps, c'est généralement le plus populaire pour les nouveaux joueurs (logique, si tu ne connais rien au jeu tu fais juste le lancer une seule fois), en jouant monocompte, tu es plus investi à jouer avec des gens, te faire des relations, des amis, avoir une guilde et à jouer tous ensemble. Il faudra aussi utiliser le canal recrutement en jeu afin de recruter pour les combats de quêtes et les donjons. On peut aussi noter que l'ergonomie est plus facile quand on joue 1 seul compte et pas plusieurs, vu qu'en multicompte faut tout gérer les comptes."
+    "monomulti": "Dans Dofus, il existe 2 façons de jouer au jeu, les 2 ont leurs + et leurs -, il n'y a pas vraiment une meilleure que l'autre, cela revient aux préférences personnelles.\nMulticompte signifie de jouer avec plusieurs comptes en même temps connectés sur le même serveur (C'est différent de créer et jouer plusieurs personnages, dans ce cas-ci, tu possèdes plusieurs fenêtres Dofus ouvertes avec plusieurs comptes créés), le multicompte permet généralement de créer entre 2 et 8 comptes afin de gérer le contenu de façon autonome, le multicompte est la norme sur tous les serveurs dits multicomptes (qui l'autorisent), avec les plus populaires étant Mériana et Ush. Les raisons principales de jouer multicompte serait de ne pas avoir à se fier sur les autres (jouer quand tu veux, pas besoin d'attendre devant un donjon), de ne pas jouer avec des gens qui vont foirer le combat (ce qui détermine qui gagne le combat c'est uniquement toi, pas quelqu'un random que tu ne connais pas qui ne savait pas jouer) et d'avoir accès à un panel de sorts extrêmement vaste afin de faire pleins de synergies. Notez qu'il faut abonner chaque compte pour jouer multicompte, mais par exemple acheter 4 packs novice (4x4 =16 euros) et jouer pendant 1 mois est une stratégie assez possible pour commencer une team et continuer à s'abonner en kamas.\n\nMonocompte signifie de jouer avec un seul compte en même temps, c'est généralement le plus populaire pour les nouveaux joueurs (logique, si tu ne connais rien au jeu tu fais juste le lancer une seule fois), en jouant monocompte, tu es plus investi à jouer avec des gens, te faire des relations, des amis, avoir une guilde et à jouer tous ensemble. Il faudra aussi utiliser le canal recrutement en jeu afin de recruter pour les combats de quêtes et les donjons. On peut aussi noter que l'ergonomie est plus facile quand on joue 1 seul compte et pas plusieurs, vu qu'en multicompte faut tout gérer les comptes.",
+
+
+    "tooltip.monomulti.main.title": "",
+    "tooltip.monomulti.main.description": "",
+
+    "tooltip.monomulti.multi.title": "",
+    "tooltip.monomulti.multi.description": "",
+
+    "tooltip.monomulti.multi.fieldTitle1": "",
+    "tooltip.monomulti.multi.fieldTitle1.title": "",
+    "tooltip.monomulti.multi.fieldTitle2": "",
+    "tooltip.monomulti.multi.fieldTitle2.title": "",
+    "tooltip.monomulti.multi.fieldTitle3": "",
+    "tooltip.monomulti.multi.fieldTitle3.title": "",
+    "tooltip.monomulti.multi.fieldTitle4": "",
+    "tooltip.monomulti.multi.fieldTitle4.title": "",
+
+    "tooltip.monomulti.mono.title": "",
+    "tooltip.monomulti.mono.description": "",
+
+    "tooltip.monomulti.mono.fieldTitle1": "",
+    "tooltip.monomulti.mono.fieldTitle1.title": "",
+    "tooltip.monomulti.mono.fieldTitle2": "",
+    "tooltip.monomulti.mono.fieldTitle2.title": "",
+    "tooltip.monomulti.mono.fieldTitle3": "",
+    "tooltip.monomulti.mono.fieldTitle3.title": "",
+    "tooltip.monomulti.mono.fieldTitle4": "",
+    "tooltip.monomulti.mono.fieldTitle4.title": "",
+
+    "tooltip.element.agility": "Agilité",
+    "tooltip.element.agility.description": "Augmente les degats **Air**, le tacle et la fuite",
+    "tooltip.element.strenght": "Force",
+    "tooltip.element.strenght.description": "Augmente les degats **Terre** et les pods (taille de l'inventaire)",
+    "tooltip.element.intelligence": "Intelligence",
+    "tooltip.element.intelligence.description": "Augmente les degats **Feu** et les soins",
+    "tooltip.element.chance": "Chance",
+    "tooltip.element.chance.description": "Augmente les degats **Eau**",
+
+    "stuff.piwi.green": "Piou Vert",
+    "stuff.piwi.red": "Piou Rouge",
+    "stuff.piwi.yellow": "Piou Jaune",
+    "stuff.piwi.blue": "Piou Bleu",
+    "stuff.gobbal": "Bouftou",
+    "stuff.gobbal.royal": "Bouftou royal",
+    "stuff.toady_madtofu": "Toady & Tofu Fou",
+
+    "level": "Niveau {{level}}",
+    "test": "oui"
 }

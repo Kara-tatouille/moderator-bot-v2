@@ -7,12 +7,12 @@
       "stuffs": [
         {
           "level": 12,
-          "name": "Piou Vert",
+          "name": "piwi.green",
           "url": "https://d-bk.net/fr/d/qwts"
         },
         {
           "level": 36,
-          "name": "Toady / Tofu Fou",
+          "name": "toady_madtofu",
           "url": "https://d-bk.net/fr/d/qwtx"
         }
       ]
@@ -24,7 +24,7 @@
       "stuffs": [
         {
           "level": 12,
-          "name": "Piou Bleu",
+          "name": "piwi.blue",
           "url": "https://d-bk.net/fr/d/qwtl"
         }
       ]
@@ -36,17 +36,17 @@
       "stuffs": [
         {
           "level": 12,
-          "name": "Piou Jaune",
+          "name": "piwi.yellow",
           "url": "https://d-bk.net/fr/d/qwtm"
         },
         {
           "level": 20,
-          "name": "Bouftou",
+          "name": "gobbal",
           "url": "https://d-bk.net/fr/d/qwuC"
         },
         {
           "level": 30,
-          "name": "Bouftou Royal",
+          "name": "gobbal.royal",
           "url": "https://d-bk.net/fr/d/qwuI"
         }
       ]
@@ -58,17 +58,17 @@
       "stuffs": [
         {
           "level": 12,
-          "name": "Piou Rouge",
+          "name": "piwi.red",
           "url": "https://d-bk.net/fr/d/qwtf"
         },
         {
           "level": 20,
-          "name": "Bouftou",
+          "name": "gobbal",
           "url": "https://d-bk.net/fr/d/qwuC"
         },
         {
           "level": 30,
-          "name": "Bouftou Royal",
+          "name": "gobbal.royal",
           "url": "https://d-bk.net/fr/d/qwuI"
         }
       ]
