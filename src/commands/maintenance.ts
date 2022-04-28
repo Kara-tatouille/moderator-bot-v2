@@ -3,6 +3,7 @@ import {SlashCommandStringOption} from "@discordjs/builders";
 
 const {SlashCommandBuilder} = require('@discordjs/builders');
 const {trans} = require('../services/translate');
+const {getMaintenanceEmbed} = require('../services/tooltipView');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -17,7 +18,10 @@ module.exports = {
                 .addChoice('en', 'en')
         }),
     async execute(interaction: CommandInteraction): Promise<void> {
-        const locale = interaction.options.getString('language') ?? 'fr';
-        await interaction.reply(trans('maintenance', locale));
+        await interaction.reply({
+            embeds: [
+                getMaintenanceEmbed(interaction.options.getString('language') ?? 'fr')
+            ]
+        });
     },
 };
