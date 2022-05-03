@@ -32,7 +32,7 @@ for (const file of eventFiles) {
 
 deployCommands().then((commands: string[]) => {
     client.login(token).then(() => {
-        addPermissionsToCommands(client, commands);
+        //addPermissionsToCommands(client, commands);
     });
 });
 
