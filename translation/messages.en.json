@@ -1,39 +1,37 @@
 {
-    "maintenance": "Every Tuesday there is a weekly maintenance to update the game servers.\nThis is to make sure that the servers are running smoothly and that there are no crashes during the week.\nSo, the game is not accessible on tuesday morning, until 11am~12pm (there is never a precise opening time, it depends on the number of things to do)\nSo you have to wait until the end :wink:\n(If your game tells you that you don't have the right version it's normal, the new version will be available only after the maintenance)",
     "xp-desc": "*How much you've talked since you've been here, unlocks new roles*\n",
     "warning-desc": "*How many times you've been warned by moderation*\n",
-    "monomulti": "In Dofus, there are 2 ways to play the game, both have their + and -, there is not really one better than the other, it comes down to personal preferences.\nMultiaccount means to play with several accounts at the same time connected on the same server (It's different from creating and playing several characters, in this case, you have several Dofus windows open with several accounts created), multiaccount generally allows to create between 2 and 8 accounts in order to manage the content autonomously, multiaccount is the standard on all the servers called multiaccount (which allow it), with the most popular being Echo. The main reasons for playing multiaccount would be to not have to rely on others (play whenever you want, no need to wait in front of a dungeon), to not play with people who will screw up the fight (what determines who wins the fight is only you, not some random person you don't know who didn't know how to play) and to have access to an extremely large panel of spells in order to do lots of synergies. Note that you have to subscribe each account to play multiaccount, but for example buying 4 novice packs (4x4 =16 euros) and playing for 1 month is a fairly possible strategy to start a team and keep subscribing in kamas.\n\nSingle account means to play with only one account at the same time, this is usually the most popular for new players (logical, if you don't know anything about the game you just run it once), by playing single account you are more invested in playing with people, making relationships, friends, having a guild and playing all together. You will also need to use the in-game recruitment channel to recruit for quest fights and dungeons. We can also note that the ergonomics is easier when you play only one account and not several, because in multiaccount you have to manage all the accounts.",
 
     "tooltip.maintenance.title": "Weekly maintenance",
-    "tooltip.maintenance.description": "Ankama updates game servers every week, to make sure everything is fine, to make saves and avoid crashing during the week.",
-    "tooltip.maintenance.footer": "This is also during this maintenance that migration are processed.",
+    "tooltip.maintenance.description": "Ankama updates the game's servers to make sure they are working properly and to avoid unforeseen events.",
+    "tooltip.maintenance.footer": "It is also at this time that the migrations are carried out.",
     "tooltip.maintenance.field1.title": "⌛ Duration",
     "tooltip.maintenance.field1": "Variable (2~3h)",
     "tooltip.maintenance.field2.title": "📅 Frequency",
-    "tooltip.maintenance.field2": "Every thusday morning",
+    "tooltip.maintenance.field2": "Every thursday morning",
     "tooltip.maintenance.field3.title": "📢 End announce",
     "tooltip.maintenance.field3": "Will be published on <#297780078245576704>",
 
 
     "tooltip.monomulti.main.title": "Monoaccount vs Multiaccount",
-    "tooltip.monomulti.main.description": "In Dofus, there is two way to play, both avec their pros and cons. There is no better one, and it comes down to personnal preferences.",
+    "tooltip.monomulti.main.description": "In Dofus, there are 2 ways to play the game, the 2 have their + and -, there is not really a better one than the other, it depends on the personal preferences of each.",
 
     "tooltip.monomulti.multi.title": "Multiaccount",
-    "tooltip.monomulti.multi.description": "Multiaccount means playing with several account all logged on the same server. You must open the client as many time as you need to log accounts.",
+    "tooltip.monomulti.multi.description": "Play with several accounts at the same time connected on the same server. You have to open the game as many times as you have characters.",
 
     "tooltip.monomulti.multi.field1.title": "+ Playing alone",
     "tooltip.monomulti.multi.field1": "No need to recruit people to build up a team",
-    "tooltip.monomulti.multi.fieldX.title": "+ Choosen composition",
-    "tooltip.monomulti.multi.fieldX": "By choosen with classes to begin, you can make sure your team is adapted for what you need",
+    "tooltip.monomulti.multi.fieldX.title": "+ Chosen composition",
+    "tooltip.monomulti.multi.fieldX": "By choosing the classes in advance, we are sure to have a good team adapted to our needs",
     "tooltip.monomulti.multi.field2.title": "- Multiples subscriptions",
     "tooltip.monomulti.multi.field2": "You must sub all your account",
     "tooltip.monomulti.multi.field3.title": "- Not ergonomic",
-    "tooltip.monomulti.multi.field3": "You must constantly repeat all your actions on all other characters",
+    "tooltip.monomulti.multi.field3": "You must constantly repeat your actions on all your characters",
 
     "tooltip.monomulti.multi.author": "Several account, one char by account",
 
     "tooltip.monomulti.mono.title": "Monoaccount",
-    "tooltip.monomulti.mono.description": "Playing with only one character. It is often the most popular pick, espicialy for new players who don't know multiaccount. Ilyzaelle and Jahash are two \"Monoaccount server\", which mean you can only log one character at a time on it",
+    "tooltip.monomulti.mono.description": "Playing with only one account at a time is usually the most popular for new players. Ilyzaelle and Jahash are two so-called \"Single Account\" servers, which means that people cannot play with multiple accounts on them.",
 
     "tooltip.monomulti.mono.field1.title": "- You must recruit",
     "tooltip.monomulti.mono.field1": "If you need help for a fight or a dungeon, you must find peoples to team with",
@@ -51,9 +49,9 @@
     "tooltip.element.strength": "Force",
     "tooltip.element.strength.description": "Increases **Earth** damages and pods (inventory size)",
     "tooltip.element.intelligence": "Intelligence",
-    "tooltip.element.intelligence.description": "Increases **Fire** damages and healing spells",
+    "tooltip.element.intelligence.description": "Increases **Fire** damages and healing",
     "tooltip.element.chance": "Chance",
-    "tooltip.element.chance.description": "Increases **Water** damages",
+    "tooltip.element.chance.description": "Increases **Water** damages and prospection",
 
     "stuff.piwi.green": "Green Piwi",
     "stuff.piwi.red": "Red Piwi",
@@ -63,6 +61,5 @@
     "stuff.gobbal.royal": "Royal Gobbal",
     "stuff.toady_madtofu": "Toady & Mad Tofu",
 
-    "level": "Lv. {{level}}",
-    "test": "yes"
+    "level": "Lv. {{level}}"
 }

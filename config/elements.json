@@ -1,77 +1,77 @@
 {
-  "elements": [
-    {
-      "id": "agility",
-      "emote": "<:Agilite:889152974876712960>",
-      "color": "#9EBF15",
-      "stuffs": [
+    "elements": [
         {
-          "level": 12,
-          "name": "piwi.green",
-          "url": "https://d-bk.net/fr/d/qwts"
+            "id": "agility",
+            "emote": "<:Agilite:889152974876712960>",
+            "color": "#9EBF15",
+            "stuffs": [
+                {
+                    "level": 12,
+                    "name": "piwi.green",
+                    "url": "https://d-bk.net/fr/d/qwts"
+                },
+                {
+                    "level": 36,
+                    "name": "toady_madtofu",
+                    "url": "https://d-bk.net/fr/d/qwtx"
+                }
+            ]
         },
         {
-          "level": 36,
-          "name": "toady_madtofu",
-          "url": "https://d-bk.net/fr/d/qwtx"
+            "id": "chance",
+            "emote": "<:Chance:889152974587301939>",
+            "color": "#4D85C2",
+            "stuffs": [
+                {
+                    "level": 12,
+                    "name": "piwi.blue",
+                    "url": "https://d-bk.net/fr/d/qwtl"
+                }
+            ]
+        },
+        {
+            "id": "strength",
+            "emote": "<:Force:889152974566334484>",
+            "color": "#FFCC00",
+            "stuffs": [
+                {
+                    "level": 12,
+                    "name": "piwi.yellow",
+                    "url": "https://d-bk.net/fr/d/qwtm"
+                },
+                {
+                    "level": 20,
+                    "name": "gobbal",
+                    "url": "https://d-bk.net/fr/d/qwuC"
+                },
+                {
+                    "level": 30,
+                    "name": "gobbal.royal",
+                    "url": "https://d-bk.net/fr/d/qwuI"
+                }
+            ]
+        },
+        {
+            "id": "intelligence",
+            "emote": "<:Intelligence:889152974381776937>",
+            "color": "#FE1111",
+            "stuffs": [
+                {
+                    "level": 12,
+                    "name": "piwi.red",
+                    "url": "https://d-bk.net/fr/d/qwtf"
+                },
+                {
+                    "level": 20,
+                    "name": "gobbal",
+                    "url": "https://d-bk.net/fr/d/qwuC"
+                },
+                {
+                    "level": 30,
+                    "name": "gobbal.royal",
+                    "url": "https://d-bk.net/fr/d/qwuI"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "chance",
-      "emote": "<:Chance:889152974587301939>",
-      "color": "#4D85C2",
-      "stuffs": [
-        {
-          "level": 12,
-          "name": "piwi.blue",
-          "url": "https://d-bk.net/fr/d/qwtl"
-        }
-      ]
-    },
-    {
-      "id": "strength",
-      "emote": "<:Force:889152974566334484>",
-      "color": "#FFCC00",
-      "stuffs": [
-        {
-          "level": 12,
-          "name": "piwi.yellow",
-          "url": "https://d-bk.net/fr/d/qwtm"
-        },
-        {
-          "level": 20,
-          "name": "gobbal",
-          "url": "https://d-bk.net/fr/d/qwuC"
-        },
-        {
-          "level": 30,
-          "name": "gobbal.royal",
-          "url": "https://d-bk.net/fr/d/qwuI"
-        }
-      ]
-    },
-    {
-      "id": "intelligence",
-      "emote": "<:Intelligence:889152974381776937>",
-      "color": "#FE1111",
-      "stuffs": [
-        {
-          "level": 12,
-          "name": "piwi.red",
-          "url": "https://d-bk.net/fr/d/qwtf"
-        },
-        {
-          "level": 20,
-          "name": "gobbal",
-          "url": "https://d-bk.net/fr/d/qwuC"
-        },
-        {
-          "level": 30,
-          "name": "gobbal.royal",
-          "url": "https://d-bk.net/fr/d/qwuI"
-        }
-      ]
-    }
-  ]
+    ]
 }

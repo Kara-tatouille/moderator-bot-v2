@@ -1,12 +1,9 @@
 {
-    "maintenance": "Tous les mardis, il y a une maintenance hebdomadaire pour permettre de mettre à jour les serveurs du jeu.\nC'est pour s'assurer que les serveurs tournent bien et qu'il n'y ait pas de crash durant la semaine.\nDu coup, le jeu n'est pas accessible le mardi matin, jusqu'à 11h~12h (il n'y a jamais d'horaires d'ouverture précis, ça dépend du nombre de choses à faire)\nIl faut donc attendre la fin :wink:\n(Si ton jeu te dit que tu n'as pas la bonne version c'est normal, la nouvelle version ne sera dispo qu'après la maintenance)",
     "xp-desc": "*Combien de fois vous avez parlé depuis que vous êtes ici, débloque de nouveaux rôles.*\n",
     "warning-desc": "*Combien de fois avez-vous été averti par la modération*\n",
-    "monomulti": "Dans Dofus, il existe 2 façons de jouer au jeu, les 2 ont leurs + et leurs -, il n'y a pas vraiment une meilleure que l'autre, cela revient aux préférences personnelles.\nMulticompte signifie de jouer avec plusieurs comptes en même temps connectés sur le même serveur (C'est différent de créer et jouer plusieurs personnages, dans ce cas-ci, tu possèdes plusieurs fenêtres Dofus ouvertes avec plusieurs comptes créés), le multicompte permet généralement de créer entre 2 et 8 comptes afin de gérer le contenu de façon autonome, le multicompte est la norme sur tous les serveurs dits multicomptes (qui l'autorisent), avec les plus populaires étant Mériana et Ush. Les raisons principales de jouer multicompte serait de ne pas avoir à se fier sur les autres (jouer quand tu veux, pas besoin d'attendre devant un donjon), de ne pas jouer avec des gens qui vont foirer le combat (ce qui détermine qui gagne le combat c'est uniquement toi, pas quelqu'un random que tu ne connais pas qui ne savait pas jouer) et d'avoir accès à un panel de sorts extrêmement vaste afin de faire pleins de synergies. Notez qu'il faut abonner chaque compte pour jouer multicompte, mais par exemple acheter 4 packs novice (4x4 =16 euros) et jouer pendant 1 mois est une stratégie assez possible pour commencer une team et continuer à s'abonner en kamas.\n\nMonocompte signifie de jouer avec un seul compte en même temps, c'est généralement le plus populaire pour les nouveaux joueurs (logique, si tu ne connais rien au jeu tu fais juste le lancer une seule fois), en jouant monocompte, tu es plus investi à jouer avec des gens, te faire des relations, des amis, avoir une guilde et à jouer tous ensemble. Il faudra aussi utiliser le canal recrutement en jeu afin de recruter pour les combats de quêtes et les donjons. On peut aussi noter que l'ergonomie est plus facile quand on joue 1 seul compte et pas plusieurs, vu qu'en multicompte faut tout gérer les comptes.",
-
 
     "tooltip.maintenance.title": "Maintenance hebdomadaire",
-    "tooltip.maintenance.description": "Ankama met à jour les serveurs du jeu, pour s'assurer qu'ils tournent bien et qu'il n'y ai pas de crash durant la semaine.",
+    "tooltip.maintenance.description": "Ankama met à jour les serveurs du jeu, pour s'assurer de leur bon fonctionnement et pour éviter les imprévus.",
     "tooltip.maintenance.footer": "C'est aussi à ce moment là que les migrations sont effectuées.",
     "tooltip.maintenance.field1.title": "⌛ Durée",
     "tooltip.maintenance.field1": "Variable (2~3h)",
@@ -16,44 +13,44 @@
     "tooltip.maintenance.field3": "Sera publiée sur <#356039693332381696>",
 
     "tooltip.monomulti.main.title": "Monocompte vs Multicompte",
-    "tooltip.monomulti.main.description": "Dans Dofus, il existe 2 façons de jouer au jeu, les 2 ont leurs + et leurs -, il n'y a pas vraiment un meilleur que l'autre, cela revient aux préférences personnelles.",
+    "tooltip.monomulti.main.description": "Dans Dofus, il existe 2 façons de jouer au jeu, les 2 ont leurs + et leurs -, il n'y a pas vraiment un meilleur que l'autre, cela dépend des préférences personnelles de chacun.",
 
     "tooltip.monomulti.multi.title": "Multicompte",
-    "tooltip.monomulti.multi.description": "Jouer avec plusieurs comptes en même temps connectés sur le même serveur. Il faut donc ouvrir autant de fois le jeu qu'on a de personnages",
+    "tooltip.monomulti.multi.description": "Jouer avec plusieurs comptes en même temps connectés sur un même serveur. Il faut donc ouvrir autant de fois le jeu que l'on a de personnages.",
 
     "tooltip.monomulti.multi.field1.title": "+ Jouer seul",
     "tooltip.monomulti.multi.field1": "Pas besoin de recruter d'autres joueurs pour compléter son équipe",
     "tooltip.monomulti.multi.fieldX.title": "+ Composition choisie",
     "tooltip.monomulti.multi.fieldX": "En choisissant à l'avance les classes, on est sûr d'avoir une bonne équipe adaptée à nos besoins",
     "tooltip.monomulti.multi.field2.title": "- Plusieurs abonnements",
-    "tooltip.monomulti.multi.field2": "Il faut abonner autant de comptes qu'on veut de personnages",
+    "tooltip.monomulti.multi.field2": "Il faut abonner tous ses comptes",
     "tooltip.monomulti.multi.field3.title": "- Peu ergonomique",
-    "tooltip.monomulti.multi.field3": "Il faut constamment répéter ses actions sur ses autres personnages",
+    "tooltip.monomulti.multi.field3": "Il faut constamment répéter ses actions sur tous ses personnages",
 
     "tooltip.monomulti.multi.author": "Plusieurs comptes, un personnage par compte",
 
     "tooltip.monomulti.mono.title": "Monocompte",
-    "tooltip.monomulti.mono.description": "Jouer avec un seul compte en même temps, c'est généralement le plus populaire pour les nouveaux joueurs. Ilyzaelle et Jahash sont deux serveurs dit \"Monocompte\", c'est à dire que les gens ne peuvent pas jouer en multicompte dessus",
+    "tooltip.monomulti.mono.description": "Jouer avec un seul compte en même temps, c'est généralement le plus populaire pour les nouveaux joueurs. Ilyzaelle et Jahash sont deux serveurs dit \"Monocompte\", c'est à dire que les gens ne peuvent pas jouer en multicompte dessus.",
 
     "tooltip.monomulti.mono.field1.title": "- Il faut recruter",
     "tooltip.monomulti.mono.field1": "Il faut recruter des gens pour faire des combats de groupes ou des donjons",
     "tooltip.monomulti.mono.field2.title": "+ Plus social",
-    "tooltip.monomulti.mono.field2": "Mais du coup ça favorise les rencontres et les bons moments",
+    "tooltip.monomulti.mono.field2": "Mais cela favorise les rencontres et les bons moments",
     "tooltip.monomulti.mono.fieldX.title": "+ Ilyzaelle",
     "tooltip.monomulti.mono.fieldX": "Ilyzaelle est le serveur le plus peuplé du jeu, et ca fait plaisir de jouer dessus",
     "tooltip.monomulti.mono.field3.title": "- Il faut s'abo",
-    "tooltip.monomulti.mono.field3": "Les serveurs monocompte sont seulement reservés aux abonnés",
+    "tooltip.monomulti.mono.field3": "Les serveurs monocompte sont seulement réservés aux abonnés",
 
     "tooltip.monomulti.mono.author": "Un personnage à la fois",
 
     "tooltip.element.agility": "Agilité",
-    "tooltip.element.agility.description": "Augmente les degats **Air**, le tacle et la fuite",
+    "tooltip.element.agility.description": "Augmente les dégâts **Air**, le tacle et la fuite",
     "tooltip.element.strength": "Force",
-    "tooltip.element.strength.description": "Augmente les degats **Terre** et les pods (taille de l'inventaire)",
+    "tooltip.element.strength.description": "Augmente les dégâts **Terre** et les pods (taille de l'inventaire)",
     "tooltip.element.intelligence": "Intelligence",
-    "tooltip.element.intelligence.description": "Augmente les degats **Feu** et les soins",
+    "tooltip.element.intelligence.description": "Augmente les dégâts **Feu** et les soins",
     "tooltip.element.chance": "Chance",
-    "tooltip.element.chance.description": "Augmente les degats **Eau**",
+    "tooltip.element.chance.description": "Augmente les dégâts **Eau** et la prospection",
 
     "stuff.piwi.green": "Piou Vert",
     "stuff.piwi.red": "Piou Rouge",
@@ -63,6 +60,5 @@
     "stuff.gobbal.royal": "Bouftou royal",
     "stuff.toady_madtofu": "Toady & Tofu Fou",
 
-    "level": "Niv. {{level}}",
-    "test": "oui"
+    "level": "Niv. {{level}}"
 }

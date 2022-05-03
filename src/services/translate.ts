@@ -25,8 +25,7 @@ module.exports = {
         const translated = json[str]
 
         if (!translated) {
-            return `{{${str}|${shortenedLocale}}}`
-            return `missing translation for key "${str}"`
+            return `Missing translation : {{${str}|${shortenedLocale}}}`
         }
 
         return translated
